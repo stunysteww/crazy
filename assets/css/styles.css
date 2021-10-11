@@ -64,7 +64,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+.blog_one{
+  font-family: 'Poppins',sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 5vh;
+  height: 8vh;
 
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 5%; 
+  height: 19vh;
+  padding-bottom: 4vh ;
+  width: 40vh;
+}
+.title_blog_one{
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(106, 106, 255);
+  justify-content: center; 
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
@@ -81,7 +100,9 @@ img {
 .section__height {
   height: 100vh;
 }
-
+.contact_para{
+  text-align: center;
+}
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
